@@ -272,6 +272,7 @@ struct Dist {
     gpg_password_file: Option<String>,
     upload_addr: Option<String>,
     src_tarball: Option<bool>,
+    missing_tools: Option<bool>,
 }
 
 #[derive(Deserialize)]
